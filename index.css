@@ -1,0 +1,53 @@
+.header {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 20px;
+  font-size: 72px;
+  text-align: center;
+}
+
+.new-game-btn {
+  background-color: rebeccapurple;
+  color: white;
+  padding: 20px 32px;
+  font-size: 72px;
+  text-align: center;
+  border-radius: 32px;
+  border: none;
+  text-transform: uppercase;
+  margin: 40px auto;
+  display: block;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+  border-bottom: 2px solid grey;
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+}
+
+.game-item {
+  font-size: 28px;
+  text-align: center;
+  padding: 12px 20px;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 2px solid rebeccapurple;
+  background: rgba(0, 0, 0, 0);
+  color: rebeccapurple;
+  border-radius: 4px;
+  width: 80%;
+  cursor: pointer;
+  transition: all 0.3s ease-in 0s;
+}
+
+.game-item:hover {
+  background: rebeccapurple;
+  color: white;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/game/index.css">
+  </head>
+  <body>
+    <div class="noughts-and-crosses">
+      <div class="row">
+        <div class="col pos-0" data-pos="0"></div>
+        <div class="col pos-1" data-pos="1"></div>
+        <div class="col pos-2" data-pos="2"></div>
+      </div>
+      <div class="row">
+        <div class="col pos-3" data-pos="3"></div>
+        <div class="col pos-4" data-pos="4"></div>
+        <div class="col pos-5" data-pos="5"></div>
+      </div>
+      <div class="row">
+        <div class="col pos-6" data-pos="6"></div>
+        <div class="col pos-7" data-pos="7"></div>
+        <div class="col pos-8" data-pos="8"></div>
+      </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-firestore.js"></script>
+    <script src="/assets/js/compManager.js"></script>
+    <script src="/game/index.js"></script>
+  </body>
+</html>
