@@ -1,4 +1,4 @@
-# naughts-and-crosses
+# noughts-and-crosses
 Created with CodeSandbox
 
 
