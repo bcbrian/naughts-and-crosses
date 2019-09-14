@@ -24,3 +24,43 @@
   border: 2px solid white;
   font-size: 32px;
 }
+
+.sign-in-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.form-container {
+  position: fixed;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-container input {
+  background: none;
+  border: 2px solid rebeccapurple;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 20px 0;
+}
+
+.form-container button {
+  background: rebeccapurple;
+  border: 2px solid rebeccapurple;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: white;
+}
